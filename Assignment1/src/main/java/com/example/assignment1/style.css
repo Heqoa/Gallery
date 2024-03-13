@@ -1,0 +1,16 @@
+.thumbnail {
+    -fx-effect: drop shadow(three-pass-box, rgba(0,0,0,0.5), 5, 0, 0, 0);
+}
+
+.thumbnail:hover {
+    -fx-effect: drop shadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0);
+}
+
+.full-size-image {
+    -fx-background-color: black;
+}
+
+.full-size-image > .imageView {
+    -fx-fit-height: 100%;
+    -fx-fit-width: 100%;
+}
